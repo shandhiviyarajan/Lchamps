@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="270" height="150" viewBox="0 0 270 150">
+    <defs>
+        <linearGradient id="c" x1="25.903%" x2="79.907%" y1="58.868%" y2="38.958%">
+            <stop offset="0%" stop-color="#4DA028"/>
+            <stop offset="100%" stop-color="#8AE42A"/>
+        </linearGradient>
+        <path id="b" d="M73.872 4.143C121.217 21.855 149.26 30.711 158 30.711c7 0 21.642-5.68 43.926-17.039 23.035-11.741 51.227-2.586 62.968 20.448A46.814 46.814 0 0 1 270 55.38c0 46.715-37.87 84.584-84.584 84.584-.462 0-.924-.004-1.385-.011-19.276-.316-35.62-1.898-49.031-4.747-15.774-3.35-35.603-4.95-59.487-4.796C34.075 130.676.268 97.3.002 55.862L0 55.38C0 25.168 24.492.676 54.705.676a54.705 54.705 0 0 1 19.167 3.468z"/>
+        <filter id="a" width="103.7%" height="113.8%" x="-1.9%" y="-3.1%" filterUnits="objectBoundingBox">
+            <feOffset dy="10" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0.169970919 0 0 0 0 0.427706069 0 0 0 0 0.0550769362 0 0 0 1 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="nonzero">
+        <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+        <use fill="url(#c)" xlink:href="#b"/>
+    </g>
+</svg>

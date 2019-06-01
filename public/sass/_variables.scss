@@ -1,0 +1,44 @@
+$color-dark:#28323f;
+$color-red:#8b0010;
+$font:'Poppins', sans-serif;
+$color-azure:#0798fd;
+$color-gray:#777e85;
+$color-soft-blue:#50b7ff;
+$color-orange:#ffa400;
+@mixin btn-box-shadow($color) {
+      box-shadow: 0 3px 0 0 $color;
+    -webkit-box-shadow: 0 3px 0 0 $color;
+    -ms-box-shadow: 0 3px 0 0 $color;
+      -moz-box-shadow: 0 3px 0 0 $color;
+
+}
+
+@mixin max-width{
+  max-width:1440px;
+}
+
+
+@mixin transition{
+
+
+      transition: .3s cubic-bezier(0.165, 0.84, 0.44, 1);;
+      -webkit-transition: .3s cubic-bezier(0.165, 0.84, 0.44, 1);;
+      -ms-transition: .3s cubic-bezier(0.165, 0.84, 0.44, 1);;
+      -moz-transition: .3s cubic-bezier(0.165, 0.84, 0.44, 1);;
+
+}
+@mixin btn-hover($color){
+text-decoration:none;
+    color:lighten($color,25%);
+
+}
+
+@mixin btn-active{
+
+    transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -moz-transform: scale(0.95);
+
+
+}
